@@ -1,9 +1,14 @@
 {
-  "id": "darkgold-companion",
-  "name": "DarkGold Companion",
-  "description": "黑金風格的角色心聲 + 日記 + 彈幕觀察 UI",
+  "display_name": "DarkGold Companion",
+  "loading_order": 1,
+  "requires": [],
+  "optional": [],
+  "dependencies": [],
+  "js": "index.js",
+  "css": "style.css",
   "author": "Celis & Mei",
-  "version": "0.2.0",
-  "entry": "index.js",
-  "ui": true
+  "version": "1.0.0",
+  "homePage": "https://github.com/shikichrome/darkgold-companion",
+  "auto_update": true,
+  "minimum_client_version": "1.0.0"
 }
