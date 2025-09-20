@@ -5,9 +5,8 @@
   padding: 12px;
   margin: 12px;
   color: #f5e1a4;
-  font-family: "Noto Sans JP", "Segoe UI", sans-serif;
+  font-family: "Noto Sans JP","Segoe UI",sans-serif;
 }
-
 .dg-section {
   border: 1px solid #caa74d;
   border-radius: 8px;
@@ -15,27 +14,14 @@
   margin-bottom: 12px;
   background: #141414;
 }
-
-.dg-section h3 {
-  margin: 0 0 6px;
-  color: #f5e1a4;
-}
-
+.dg-section h3 { margin: 0 0 6px; color: #f5e1a4; }
 .dg-section .entry {
-  margin: 4px 0;
-  padding: 4px 8px;
-  background: rgba(214, 184, 121, 0.1);
-  border-radius: 4px;
+  margin: 6px 0; padding: 6px 8px;
+  background: rgba(255,255,255,.06); border: 1px solid #2a2a2a; border-radius: 8px;
 }
-
-#barrageList {
-  max-height: 120px;
-  overflow-y: auto;
-  font-size: 13px;
+#barrageList { max-height: 140px; overflow: auto; font-size: 13px; }
+.barrage { margin: 4px 0; padding: 4px 6px; background: rgba(255,255,255,.05); border-left: 3px solid #d6b879; border-radius: 6px; }
+#thoughtInput,#diaryInput {
+  width: 100%; background:#0f0f0f; color:#eee; border:1px solid #2a2a2a; border-radius:8px; padding:8px; margin-top:6px;
 }
-
-.barrage {
-  padding: 2px 4px;
-  color: #ffd700;
-  text-shadow: 0 0 6px rgba(214,184,121,0.7);
-}
+button { background:#191919; border:1px solid #d6b879; color:#f5e1a4; border-radius:8px; padding:6px 10px; cursor:pointer; margin-top:6px; }
