@@ -1,10 +1,9 @@
 {
-    "name": "darkgold-companion",
-    "id": "darkgold-companion",
-    "title": "DarkGold Companion",
-    "version": "0.2.0",
-    "entry": "index.js",
-    "styles": ["style.css"],
-    "description": "右側彈幕 + 下方心聲/日記（每5則自動200+字總結）的黑金擴充"
-  }
-  
+  "id": "darkgold-companion",
+  "name": "DarkGold Companion",
+  "description": "黑金風格的角色心聲 + 日記 + 彈幕觀察 UI",
+  "author": "Celis & Mei",
+  "version": "0.2.0",
+  "entry": "index.js",
+  "ui": true
+}
