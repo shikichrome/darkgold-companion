@@ -1,1 +1,41 @@
-/* 可留空；主樣式已由 index.js 動態注入 */
+#darkgold-panel {
+  background: #0b0b0b;
+  border: 1px solid #d6b879;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 12px;
+  color: #f5e1a4;
+  font-family: "Noto Sans JP", "Segoe UI", sans-serif;
+}
+
+.dg-section {
+  border: 1px solid #caa74d;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 12px;
+  background: #141414;
+}
+
+.dg-section h3 {
+  margin: 0 0 6px;
+  color: #f5e1a4;
+}
+
+.dg-section .entry {
+  margin: 4px 0;
+  padding: 4px 8px;
+  background: rgba(214, 184, 121, 0.1);
+  border-radius: 4px;
+}
+
+#barrageList {
+  max-height: 120px;
+  overflow-y: auto;
+  font-size: 13px;
+}
+
+.barrage {
+  padding: 2px 4px;
+  color: #ffd700;
+  text-shadow: 0 0 6px rgba(214,184,121,0.7);
+}
